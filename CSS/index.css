@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------
+	共通の設定/=iPhone 320px(縦)からの設定 /
+-------------------------- */
+*{
+	box-sizing: border-box;
+	
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+
+
+#img1{
+	width:100%;
+	height: auto;
+	float: left;
+}
+#concepttext{
+	width: 470px;
+	float: left
+}
+
+#top{
+	 position: relative;/*相対配置*/
+	margin-bottom: 50px;
+
+}
+
+
+#concept1{
+	position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 350px;
+  left: 5%;
+font-size: 1.4rem;
+
+	
+}
+
+
+
+#concepttext{
+line-height: 1.3em;
+	letter-spacing: 0.2em;
+	margin-bottom: 50px;
+	
+}
+
+#syou{
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	
+}
+.syouhin {
+	text-align: center;
+	font-size: 1.3rem;
+	line-height: 1.5em;
+}
+
+.canpany{
+	text-align: center;
+}
+
+/*--------------------------
+	タブレット / iPad 768px(縦)から1023pxまでの設定 /
+-------------------------- */
+@media screen and (min-width:768px){
+	
+		#wrapper{
+		width: 100%;
+	margin: 0 auto;
+}
+	
+	#top img{
+		width:100%;
+	}
+	
+	#concept2{
+		width: 100%;
+		padding-bottom: 20%;
+		
+		
+	}
+	
+	#img1{
+		width: 40%;
+		height: auto;
+		padding-left: 5%;
+		float: left;
+		margin-bottom: 5%;
+		
+	}
+	
+	#concepttext{
+		float: left;
+		vertical-align: middle;
+		padding-top: 10px;
+		
+		line-height: 1.5;
+		letter-spacing: 0.3rem;
+		font-size: 1.2rem;
+	}
+	
+	
+	#syou{
+		width: 100%;
+		display: flex;
+		padding: 3% auto;
+		justify-content:space-between;
+		
+	}
+	
+	
+	
+	
+}
